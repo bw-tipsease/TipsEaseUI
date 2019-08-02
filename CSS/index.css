@@ -567,6 +567,10 @@ footer .privacy .p5 {
   margin-top: 30px;
   height: 350px;
 }
+.aboutContent .personOne .img-personOne img:hover {
+  opacity: 0.3;
+  filter: alpha(opacity=50);
+}
 @media (max-width: 900px) {
   .aboutContent .personOne .img-personOne img {
     height: 220px;
@@ -601,6 +605,10 @@ footer .privacy .p5 {
   margin-bottom: 10px;
   margin-top: 30px;
   height: 350px;
+}
+.aboutContent .personTwo .img-personTwo img:hover {
+  opacity: 0.3;
+  filter: alpha(opacity=50);
 }
 @media (max-width: 900px) {
   .aboutContent .personTwo .img-personTwo img {
@@ -637,6 +645,10 @@ footer .privacy .p5 {
   margin-top: 30px;
   height: 350px;
 }
+.aboutContent .personThree .img-personThree img:hover {
+  opacity: 0.3;
+  filter: alpha(opacity=50);
+}
 @media (max-width: 900px) {
   .aboutContent .personThree .img-personThree img {
     height: 220px;
@@ -672,6 +684,10 @@ footer .privacy .p5 {
   margin-top: 30px;
   height: 350px;
 }
+.aboutContent .personFour .img-personFour img:hover {
+  opacity: 0.3;
+  filter: alpha(opacity=50);
+}
 @media (max-width: 900px) {
   .aboutContent .personFour .img-personFour img {
     height: 220px;
@@ -705,6 +721,10 @@ footer .privacy .p5 {
   margin-top: 30px;
   height: 350px;
 }
+.aboutContent .personFive .img-personFive img:hover {
+  opacity: 0.3;
+  filter: alpha(opacity=50);
+}
 @media (max-width: 900px) {
   .aboutContent .personFive .img-personFive img {
     height: 220px;
@@ -723,13 +743,18 @@ footer .privacy .p5 {
     width: 95%;
   }
 }
-.aboutContent .personSix h4 {
-  color: #f3e367;
+.aboutContent .personSix .text-personSix * {
+  text-decoration: none;
 }
-.aboutContent .personSix h5 {
+.aboutContent .personSix .text-personSix * h4 {
+  color: #f3e367;
+  text-decoration-line: none !important;
+}
+.aboutContent .personSix .text-personSix h5 {
   display: flex;
   justify-content: center;
   color: #f3e367;
+  text-decoration-line: none !important;
 }
 .aboutContent .personSix .img-personSix img {
   width: 350px;
@@ -737,6 +762,10 @@ footer .privacy .p5 {
   margin-bottom: 10px;
   margin-top: 30px;
   height: 350px;
+}
+.aboutContent .personSix .img-personSix img:hover {
+  opacity: 0.3;
+  filter: alpha(opacity=50);
 }
 @media (max-width: 900px) {
   .aboutContent .personSix .img-personSix img {
